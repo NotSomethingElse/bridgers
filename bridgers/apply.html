@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Apply</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="icon" type="image/png" href="images/bridgelogo.png">
+    <link rel="stylesheet" type="text/css" href="bridgestyles.css">
+    <style>
+      .bubble {
+        width: 280px;
+      }
+      dt {
+        font-size: 30px;
+        font-family: "Righteous";
+        color: #5a2bd9;
+        margin-top: 15px;
+        margin-bottom: 2px;
+        text-align: center;
+      }
+      dd {
+        font-size: 25px;
+        font-style: italic;
+        font-family: "Dosis";
+        color: #5a2bd9;
+        margin-bottom: 15px;
+        margin-top: 2px;
+        text-align: center;
+        margin-left: 0;
+      }
+      span {
+        font-style: normal;
+        font-weight: bold;
+      }
+      form * {
+        display: block;
+        margin: 20px;
+      }
+      textarea {
+        padding: 10px;
+        width: 80%;
+        height: 200px;
+        background-color: #af5eff;
+        color: white;
+        font-family: "Dosis";
+        font-size: 25px;
+        border: 0px solid green;
+        box-shadow: none;
+      }
+      input {
+        padding: 10px;
+        background-color: #af5eff;
+        color: white;
+        font-family: "Dosis";
+        font-size: 25px;
+        border: 0px solid green;
+        box-shadow: none;
+      }
+      ::placeholder {
+        color: white;
+        font-weight: bold;
+      }
+      :focus {
+        border: 2px solid #cabfff;
+        outline: none;
+      }
+      h3 {
+        font-family: "Dosis";
+        text-align: center;
+      }
+      dl {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      }
+      #mm {
+        grid-column: 3 / 4;
+      }
+    </style>
+  </head>
+
+  <body>
+      <nav>
+      <a href="index.html">homepage</a> - <a href="apply.html">apply</a> - <a href="members.html">members</a> - <a href="minigame.html">bridge</a> - <a href="techniques.html">techniques</a>
+      </nav>
+      <div id="header">
+        <div id="topcurve"></div>
+        <img src="images/bridgerslogo.png" id="logo" alt="Bridgers Background">
+        <div id="bottomcurve"></div>
+      </div>
+      <main>
+        <h1>Apply for the guild</h1>
+        <p class="bubble">If you are interested in joining the guild, please fill out the form below. The Guild requirements are also listed below.</p>
+
+        <h2>Guild Requirements</h2>
+        <h3>You only need to meet 2 of the gamemode requirements to apply, or only one if you meet the bridge requirements</h3>
+        <dl>
+          <div>
+            <dt>The Bridge</dt>
+            <dd>1000 wins <span>or</span> 500 wins & 5.0 W/L (wins / loss)</dd>
+          </div>
+          <div>
+            <dt>Skywars</dt>
+            <dd>1000 wins</dd>
+          </div>
+          <div>
+            <dt>TNT Games</dt>
+            <dd>1000 wins</dd>
+          </div>
+          <div>
+            <dt>Build Battle</dt>
+            <dd>5000 score</dd>
+          </div>
+          <div>
+            <dt>Mega Walls</dt>
+            <dd>500 wins</dd>
+          </div>
+          <div>
+            <dt>Blitz SG</dt>
+            <dd>500 wins</dd>
+          </div>
+          <div>
+            <dt>UHC Champions</dt>
+            <dd>25 wins</dd>
+          </div>
+          <div>
+            <dt>The Pit</dt>
+            <dd>Prestige VIII (8)</dd>
+          </div>
+          <div>
+            <dt>Duels</dt>
+            <dd>2500 wins</dd>
+          </div>
+          <div>
+            <dt>Bed Wars</dt>
+            <dd>200 stars</dd>
+          </div>
+          <div id="mm">
+            <dt>Murder Mystery</dt>
+            <dd>1500 wins <span>or</span> 500 assassins wins</dd>
+          </div>
+        </dl>
+        <h3>If you have any exceptional stats in other gamemodes, feel free to apply and specify those stats!</h3>
+        <h2>Apply</h2>
+
+        <form action="#" method="post">
+
+          <input type="text" name="IGN" maxlength="16" required="required" placeholder="Your In-Game Name">
+
+          <textarea name="requirements" required="required" placeholder="Which requirements do you meet?"></textarea>
+
+          <textarea name="mutesbans" placeholder="Do you have any previous mutes or bans? Why?"></textarea>
+
+          <textarea name="whybridgers" placeholder="Why do you want to join bridgers?"></textarea>
+
+          <input type="submit" name="submit">
+
+        </form>
+
+
+      </main>
+      <footer>
+        <p>contact us: <a href="https://hypixel.net/threads/bridgers-bridge-%E3%80%90-1-duels-gexp-top-50-overall%E3%80%91-%E3%80%90the-bridge%E3%80%91.2014766/">forums page</a> - <a href="https://www.youtube.com/watch?v=uxsWjeiQ76s">discord</a>
+        <p>references: bridgers background taken by me, logo from <a href="https://hypixel.net/guilds/Bridgers/">here</a>, guild requirements from <a href="https://hypixel.net/threads/bridgers-bridge-%E3%80%90-1-duels-gexp-top-50-overall%E3%80%91-%E3%80%90the-bridge%E3%80%91.2014766/">here</a></p>
+        <a href="https://atdpsites.berkeley.edu/validate/">HTML5</a>
+      </footer>
+  </body>
+</html>

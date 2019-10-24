@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+nav {
+  text-align: center;
+  font-family: "Dosis";
+  font-size: 30px;
+  position: fixed;
+  top: 0px;
+  color: white;
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 15px;
+  background-color: #5a2bd9;
+  border-bottom: 2px solid white;
+}
+nav a:link {
+  color: white;
+  text-decoration: none;
+}
+nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #d2c2ff;
+  text-decoration: none;
+}
+nav a:active {
+  color: #d2c2ff;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  margin-top: 100px;
+}
+main h1 {
+  font-family: "Righteous";
+  padding: 20px;
+  font-size: 65px;
+  color: #5a2bd9;
+  text-align: center;
+  margin-bottom: 5px;
+}
+#topcurve {
+  background-image: url("images/topcurve.png");
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+#bottomcurve {
+  background-image: url("images/bottomcurve.png");
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+@keyframes chaChaSlide {
+  0% {
+    transform: translateX(-600%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+#logo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  animation: 1s ease-out 0s 1 chaChaSlide;
+}
+#header {
+  background-image: url("images/bridgebackgroundfour.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bubble {
+  font-family: "Righteous";
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  background-color: #5a2bd9;
+  margin: auto;
+  border-radius: 50%;
+  padding: 80px;
+}
+
+
+footer {
+  text-align: center;
+  font-family: "Dosis";
+  font-size: 17px;
+  color: white;
+  padding: 10px;
+  background-color: #5a2bd9;
+  margin: auto;
+  padding-top: 15px;
+  width: 100%;
+  border-top: 2px solid white;
+}
+footer p {
+  color: white;
+}
+footer a:link {
+  color: white;
+}
+footer a:visited {
+  color: white;
+}
+footer a:hover {
+  color: #d2c2ff;
+}
+footer a:active {
+  color: #d2c2ff;
+}
+.bubble a:link {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #5a2bd9;
+  font-family: "Righteous";
+}
+
+h3 {
+  font-size: 30px;
+  color: #5a2bd9;
+  font-family: "Righteous";
+  margin-left: 10px;
+}
+
+p, li, dl, dt {
+  margin: 20px;
+  font-size: 30px;
+  color: #5a2bd9;
+  font-family: "Dosis";
+}
+dl {
+  font-weight: normal;
+}
+dt {
+  font-weight: bold;
+}
+main a:link {
+  color: #5a2bd9;
+  font-family: "Dosis";
+}
